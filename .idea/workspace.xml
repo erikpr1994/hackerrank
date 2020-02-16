@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GradingStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppleAndOrange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +87,7 @@
       <workItem from="1579959152685" duration="1236000" />
       <workItem from="1580159415763" duration="1086000" />
       <workItem from="1580765748073" duration="1852000" />
+      <workItem from="1581873066335" duration="1540000" />
     </task>
     <servers />
   </component>
@@ -98,9 +99,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1579882302784" />
-    <state x="2432" y="627" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579959254498">
-      <screen x="0" y="0" width="3440" height="1440" />
+    <state x="2432" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581873121747">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="2432" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581873121747" />
     <state x="2432" y="627" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1579959254498" />
     <state x="2168" y="382" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1579959252809">
       <screen x="0" y="0" width="3440" height="1440" />
@@ -122,10 +124,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579885353061" />
-    <state x="948" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1580765748762">
-      <screen x="0" y="0" width="3440" height="1440" />
+    <state x="948" y="438" key="com.intellij.ide.util.TipDialog" timestamp="1581873069361">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579902426494" />
+    <state x="948" y="438" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581873069361" />
     <state x="948" y="451" key="com.intellij.ide.util.TipDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1580765748762" />
     <state x="513" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579882808465">
       <screen x="0" y="0" width="1440" height="900" />
