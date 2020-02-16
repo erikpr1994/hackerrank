@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Kangaroo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppleAndOrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppleAndOrange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <workItem from="1579959152685" duration="1236000" />
       <workItem from="1580159415763" duration="1086000" />
       <workItem from="1580765748073" duration="1852000" />
-      <workItem from="1581873066335" duration="1812000" />
+      <workItem from="1581873066335" duration="3036000" />
     </task>
     <task id="LOCAL-00001" summary="AppleAndOrange excersize">
       <created>1581874644103</created>
@@ -95,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581874644103</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AppleAndOrange exercise refactor">
+      <created>1581874955633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581874955633</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Birthday Cake Candles exercise">
+      <created>1581875039547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581875039547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +117,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AppleAndOrange excersize" />
-    <option name="LAST_COMMIT_MESSAGE" value="AppleAndOrange excersize" />
+    <MESSAGE value="AppleAndOrange exercise refactor" />
+    <MESSAGE value="Birthday Cake Candles exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Birthday Cake Candles exercise" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1579882302784">
@@ -119,10 +135,10 @@
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="2168" y="382" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1579959252809" />
-    <state x="2205" y="298" key="CommitChangelistDialog2" timestamp="1581874955244">
+    <state x="2205" y="298" key="CommitChangelistDialog2" timestamp="1581875039179">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2205" y="298" key="CommitChangelistDialog2/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581874955244" />
+    <state x="2205" y="298" key="CommitChangelistDialog2/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581875039179" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1579885353062">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
