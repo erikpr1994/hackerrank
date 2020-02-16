@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AppleAndOrange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppleAndOrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppleAndOrange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +86,24 @@
       <workItem from="1579959152685" duration="1236000" />
       <workItem from="1580159415763" duration="1086000" />
       <workItem from="1580765748073" duration="1852000" />
-      <workItem from="1581873066335" duration="1540000" />
+      <workItem from="1581873066335" duration="1812000" />
     </task>
+    <task id="LOCAL-00001" summary="AppleAndOrange excersize">
+      <created>1581874644103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581874644103</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AppleAndOrange excersize" />
+    <option name="LAST_COMMIT_MESSAGE" value="AppleAndOrange excersize" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1579882302784">
@@ -108,6 +119,10 @@
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="2168" y="382" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1579959252809" />
+    <state x="2205" y="298" key="CommitChangelistDialog2" timestamp="1581874643697">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2205" y="298" key="CommitChangelistDialog2/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581874643697" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1579885353062">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

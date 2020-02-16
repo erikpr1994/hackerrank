@@ -10,28 +10,22 @@ public class Solution {
 
     // Complete the countApplesAndOranges function below.
     static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
-        int sumApples = 0;
-        int sumOranges = 0;
-
-        System.out.print("Array apples length is: " +apples.length +" and array orange length is: "+oranges.length + "\n");
-
-        for(int i = 0; i<apples.length;i++){
-            System.out.print("Apple nº "+i+" fall in "+apples[i]+a +"\n");
-            if(apples[i]+a >= s && apples[i]+a<= t){
-                System.out.print("Apple nº "+i+" fall in "+apples[i]+a +"\n");
-                sumApples++;
-            }
-        }
-
-        for(int j=0;j<oranges.length;j++){
-            System.out.print("Orange nº "+j+" fall in "+oranges[j]+a+"\n");
-            if(oranges[j]+b >= s && oranges[j]+b<=t){
-                sumOranges++;
-            }
-        }
+        int sumApples = returnAmountOfFruitsFellInHouse(s,t,a,apples);
+        int sumOranges = returnAmountOfFruitsFellInHouse(s,t,b,oranges);
 
         System.out.print(sumApples +"\n");
         System.out.print(sumOranges);
+    }
+
+    public static int returnAmountOfFruitsFellInHouse(int houseLeft, int houseRigth, int treePosition, int[] fruits){
+        int sumFruits = 0;
+        for(int i = 0; i<fruits.length;i++){
+            if(fruits[i]+treePosition >= houseLeft && fruits[i]+treePosition<= houseRigth){
+                sumFruits++;
+            }
+        }
+
+        return sumFruits;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
