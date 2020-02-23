@@ -5,7 +5,22 @@ import java.util.Scanner;
 
 public class Solution {
 
+    // SOLUCION CON RECURSION
+    static int stepPerms(int n) {
+        if (n <= 0) return 0;
+        if (n == 1) return 1;
+        if (n == 2) return 2;
+        if (n == 3) return 4;
+
+        int stepsM3 = stepPerms(n - 3);
+        int stepsM2 = stepPerms(n - 2);
+        int stepsM1 = stepPerms(n - 1);
+
+        return stepsM3 + stepsM2 + stepsM1;
+    }
+
     // Complete the stepPerms function below.
+    // SOLUCION CON MEMOIZATION
     static int stepPerms(int n) {
         int[] number = new int[n + 1];
         number[0] = 1;
@@ -18,7 +33,7 @@ public class Solution {
             return 0;
         }
 
-        // si la posicion de number n es diferente a 0, devuelve number y su posicion
+        // si la posicion de number n es diferente a 0, devuelve number y su posicion - Memoization
         if (number[n] != 0) {
             return number[n];
         }
@@ -31,8 +46,9 @@ public class Solution {
         // Calcula la posicion 0 de number
         number[n] = calcs(n - 3, number) + calcs(n - 2, number) + calcs(n - 1, number);
         return number[n];
+    }
 
-
+    // PRUEBAS CON GASTON
         /*// Complete the stepPerms function below.
         static int stepPerms(int n) {
             int result = 0;
@@ -72,7 +88,6 @@ public class Solution {
             if (stepsM1 > 0) stepsM1 += 1;
             return stepsM3 + stepsM2 + stepsM1;
         }*/
-    }
 
     private static final Scanner scanner = new Scanner(System.in);
 
