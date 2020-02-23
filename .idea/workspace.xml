@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BreakingTheRecords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecursionDavisStaircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecursionDavisStaircase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <workItem from="1581873066335" duration="5819000" />
       <workItem from="1582301079224" duration="2391000" />
       <workItem from="1582305685425" duration="167000" />
-      <workItem from="1582465991163" duration="1665000" />
+      <workItem from="1582465991163" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="AppleAndOrange excersize">
       <created>1581874644103</created>
