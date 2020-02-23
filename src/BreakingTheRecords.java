@@ -11,11 +11,10 @@ public class Solution {
     // Complete the breakingRecords function below.
     static int[] breakingRecords(int[] scores) {
         int[] records = new int[2];
+        int[] result = new int[2];
 
         records[0] = scores[0];
         records[1] = scores[0];
-
-        int[] result = new int[2];
 
         for (int i = 1; i < scores.length; i++) {
             if (records[1] > scores[i]) {
