@@ -177,9 +177,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579885353061" />
-    <state x="2172" y="436" key="Vcs.Push.Dialog.v2" timestamp="1581876309233">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="431" y="173" key="MultipleFileMergeDialog" timestamp="1583592576338">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="431" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1583592576338" />
+    <state x="640" y="280" key="Vcs.Push.Dialog.v2" timestamp="1583592559377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="640" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583592559377" />
     <state x="2172" y="436" key="Vcs.Push.Dialog.v2/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581876309233" />
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582305685585">
       <screen x="0" y="0" width="1440" height="900" />
