@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BynarySearchTree_LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeftRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SparseArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +92,8 @@
       <workItem from="1582305685425" duration="167000" />
       <workItem from="1582465991163" duration="6892000" />
       <workItem from="1583512550486" duration="1171000" />
+      <workItem from="1584548800831" duration="10000" />
+      <workItem from="1586293610683" duration="2678000" />
     </task>
     <task id="LOCAL-00001" summary="AppleAndOrange excersize">
       <created>1581874644103</created>
@@ -186,20 +189,21 @@
     </state>
     <state x="640" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583592559377" />
     <state x="2172" y="436" key="Vcs.Push.Dialog.v2/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581876309233" />
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582305685585">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="948" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1584548804648">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582305685585" />
     <state x="948" y="438" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581873069361" />
-    <state x="948" y="451" key="com.intellij.ide.util.TipDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1580765748762" />
+    <state x="948" y="451" key="com.intellij.ide.util.TipDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1584548804648" />
     <state x="513" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579882808465">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="513" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1579882808465" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583513253237">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="920" y="314" width="1601" height="1082" key="search.everywhere.popup" timestamp="1586294605657">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-248.-1080.1920.1080@0.0.1440.900" timestamp="1583513253237" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582305775544" />
+    <state x="920" y="314" width="1601" height="1082" key="search.everywhere.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1586294605657" />
   </component>
 </project>
