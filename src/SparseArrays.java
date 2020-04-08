@@ -16,19 +16,17 @@ public class Solution {
 
         Map<String, Integer> countMap = new HashMap<>();
 
-        for(int i = 0; i<strings.length; i++){
-            if(countMap.containsKey(strings[i])) {
-                int value = countMap.get(strings[i]);
-                value++;
-                countMap.put(strings[i], value);
+        for (int i = 0; i < strings.length; i++) {
+            if (countMap.containsKey(strings[i])) {
+                countMap.put(strings[i], countMap.get(strings[i]) + 1);
             } else {
                 countMap.put(strings[i], 1);
             }
         }
 
-        for(int i = 0; i<totalQueries; i++){
+        for (int i = 0; i < totalQueries; i++) {
             System.out.println(i);
-            if(countMap.containsKey(queries[i])){
+            if (countMap.containsKey(queries[i])) {
                 results[i] = countMap.get(queries[i]);
             } else {
                 results[i] = 0;
