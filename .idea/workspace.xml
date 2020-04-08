@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArrayManipulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SparseArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SparseArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,8 @@
       <workItem from="1583512550486" duration="1171000" />
       <workItem from="1584548800831" duration="10000" />
       <workItem from="1586293610683" duration="2678000" />
-      <workItem from="1586334621929" duration="6614000" />
+      <workItem from="1586334621929" duration="7370000" />
+      <workItem from="1586379143239" duration="3165000" />
     </task>
     <task id="LOCAL-00001" summary="AppleAndOrange excersize">
       <created>1581874644103</created>
@@ -189,12 +190,12 @@
     </state>
     <state x="640" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583592559377" />
     <state x="2172" y="436" key="Vcs.Push.Dialog.v2/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581876309233" />
-    <state x="948" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1586334626369">
+    <state x="948" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1586379145282">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582305685585" />
     <state x="948" y="438" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581873069361" />
-    <state x="948" y="451" key="com.intellij.ide.util.TipDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1586334626369" />
+    <state x="948" y="451" key="com.intellij.ide.util.TipDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1586379145282" />
     <state x="513" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579882808465">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
