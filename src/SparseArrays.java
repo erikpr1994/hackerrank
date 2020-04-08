@@ -10,15 +10,28 @@ public class Solution {
 
     // Complete the matchingStrings function below.
     static int[] matchingStrings(String[] strings, String[] queries) {
-        int totalStrings = queries.length;
+        int totalQueries = queries.length;
         int[] results;
-        results = new int[totalStrings];
+        results = new int[totalQueries];
 
-        for (int j = 0; j < queries.length; j++) {
-            for (int i = 0; i < strings.length; i++) {
-                if (queries[j].equals(strings[i])) {
-                    results[j] += 1;
-                }
+        Map<String, Integer> countMap = new HashMap<>();
+
+        for(int i = 0; i<strings.length; i++){
+            if(countMap.containsKey(strings[i])) {
+                int value = countMap.get(strings[i]);
+                value++;
+                countMap.put(strings[i], value);
+            } else {
+                countMap.put(strings[i], 1);
+            }
+        }
+
+        for(int i = 0; i<totalQueries; i++){
+            System.out.println(i);
+            if(countMap.containsKey(queries[i])){
+                results[i] = countMap.get(queries[i]);
+            } else {
+                results[i] = 0;
             }
         }
 
@@ -54,10 +67,6 @@ public class Solution {
 
         for (int i = 0; i < res.length; i++) {
             bufferedWriter.write(String.valueOf(res[i]));
-
-            if (i != res.length - 1) {
-                bufferedWriter.write("\n");
-            }
         }
 
         bufferedWriter.newLine();
