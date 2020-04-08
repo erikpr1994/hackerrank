@@ -65,6 +65,10 @@ public class Solution {
 
         for (int i = 0; i < res.length; i++) {
             bufferedWriter.write(String.valueOf(res[i]));
+
+            if (i != res.length-1) {
+                bufferedWriter.write("\n");
+            }
         }
 
         bufferedWriter.newLine();
