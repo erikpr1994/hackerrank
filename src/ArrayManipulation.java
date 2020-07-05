@@ -9,7 +9,7 @@ import java.util.regex.*;
 public class Solution {
 
     // Complete the arrayManipulation function below.
-    // Metodo O(1) = Pasa todos los tests
+    // Metodo O(n+m) = Pasa todos los tests
     static long arrayManipulation(int n, int[][] queries) {
         long outputArray[] = new long[n + 2];
         for (int i = 0; i < queries.length; i++) {
@@ -34,7 +34,7 @@ public class Solution {
     }
 
 
-    // Metodo O(n^2) = Solo pasa los test que son cortos
+    // Metodo O(n*m) = Solo pasa los test que son cortos
     static long arrayManipulation(int n, int[][] queries) {
         long bigger = 0;
         int start, end, number;
