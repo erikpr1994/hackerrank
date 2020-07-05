@@ -1,11 +1,7 @@
-import javax.swing.plaf.synth.SynthMenuBarUI;
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
 
 public class Solution {
 
@@ -14,11 +10,11 @@ public class Solution {
         int kangaroo1Position = x1;
         int kangaroo2Position = x2;
 
-        while((v1 > v2 && kangaroo1Position < kangaroo2Position) || (v2>v1 && kangaroo2Position < kangaroo1Position)) {
-            kangaroo1Position +=v1;
-            kangaroo2Position+=v2;
+        while ((v1 > v2 && kangaroo1Position < kangaroo2Position) || (v2 > v1 && kangaroo2Position < kangaroo1Position)) {
+            kangaroo1Position += v1;
+            kangaroo2Position += v2;
         }
-        if(kangaroo1Position==kangaroo2Position){
+        if (kangaroo1Position == kangaroo2Position) {
             return "YES";
         } else {
             return "NO";
