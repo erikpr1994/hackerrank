@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="" />
+    <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -85,7 +89,8 @@
       <workItem from="1586688774427" duration="1792000" />
       <workItem from="1586869057987" duration="3000" />
       <workItem from="1587052627143" duration="6000" />
-      <workItem from="1593941754984" duration="135000" />
+      <workItem from="1593941754984" duration="8892000" />
+      <workItem from="1594029720614" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="AppleAndOrange excersize">
       <created>1581874644103</created>
@@ -129,6 +134,7 @@
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="AppleAndOrange excersize" />
     <MESSAGE value="AppleAndOrange exercise refactor" />
     <MESSAGE value="Birthday Cake Candles exercise" />
@@ -137,65 +143,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Recursion: Fibonnaci number exercise" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Project_Structure" timestamp="1579882302784">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1579882302784" />
-    <state x="2432" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582473664374">
-      <screen x="0" y="0" width="3440" height="1400" />
-    </state>
-    <state x="1018" y="392" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1582305788748" />
-    <state x="2432" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581873121747" />
-    <state x="2432" y="610" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1582473664374" />
-    <state x="2432" y="627" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1579959254498" />
-    <state x="2168" y="382" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1579959252809">
+    <state x="2393" y="433" key="#com.intellij.ide.util.MemberChooser" timestamp="1593944505317">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="2168" y="382" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1579959252809" />
-    <state x="2205" y="298" key="CommitChangelistDialog2" timestamp="1581876836484">
-      <screen x="0" y="0" width="3440" height="1400" />
-    </state>
-    <state x="2205" y="298" key="CommitChangelistDialog2/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581876836484" />
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1579885353062">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579885353062" />
-    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1579885353061">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579885353061" />
-    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1579885353060">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579885353060" />
-    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1579885353061">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579885353061" />
-    <state x="431" y="173" key="MultipleFileMergeDialog" timestamp="1583592576338">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="431" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1583592576338" />
-    <state x="640" y="280" key="Vcs.Push.Dialog.v2" timestamp="1583592559377">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="640" y="280" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583592559377" />
-    <state x="2172" y="436" key="Vcs.Push.Dialog.v2/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581876309233" />
+    <state x="2393" y="433" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1440@0.0.3440.1440" timestamp="1593944505317" />
     <state x="948" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1587052627818">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582305685585" />
-    <state x="948" y="438" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/1265.1440.1920.1160@0.0.3440.1400" timestamp="1581873069361" />
     <state x="948" y="451" key="com.intellij.ide.util.TipDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1587052627818" />
-    <state x="513" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579882808465">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="513" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1579882808465" />
-    <state x="920" y="314" width="1601" height="1082" key="search.everywhere.popup" timestamp="1586294605657">
+    <state x="920" y="314" width="1601" height="1082" key="search.everywhere.popup" timestamp="1593947732969">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-248.-1080.1920.1080@0.0.1440.900" timestamp="1583513253237" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582305775544" />
-    <state x="920" y="314" width="1601" height="1082" key="search.everywhere.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1586294605657" />
+    <state x="920" y="314" width="1601" height="1082" key="search.everywhere.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1593947732969" />
   </component>
 </project>
