@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c672264-7b0a-41a4-b88e-180626c5b7df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CountingValleys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jumpingOnTheClouds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,7 @@
       <workItem from="1593941754984" duration="8892000" />
       <workItem from="1594029720614" duration="677000" />
       <workItem from="1607800064059" duration="4015000" />
-      <workItem from="1607853440281" duration="702000" />
+      <workItem from="1607853440281" duration="1770000" />
     </task>
     <task id="LOCAL-00001" summary="AppleAndOrange excersize">
       <created>1581874644103</created>
