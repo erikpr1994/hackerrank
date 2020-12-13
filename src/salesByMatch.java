@@ -8,8 +8,8 @@ public class Solution {
     static int sockMerchant(int n, int[] ar) {
         AtomicReference<Integer> pairs = new AtomicReference<>(0);
         Hashtable<Integer, Integer> hashtable = new Hashtable<>();
-        for(int i = 0; i<ar.length; i++){
-            if(hashtable.containsKey(ar[i])){
+        for (int i = 0; i < ar.length; i++) {
+            if (hashtable.containsKey(ar[i])) {
                 Integer value = hashtable.get(ar[i]);
                 value += 1;
                 hashtable.put(ar[i], value);
@@ -19,14 +19,29 @@ public class Solution {
         }
 
         hashtable.forEach((key, element) -> {
-            if(element % 2 == 0) {
+            if (element % 2 == 0) {
                 pairs.updateAndGet(v -> v + element / 2);
             } else {
-                pairs.updateAndGet(v -> v + (element -1 ) / 2);
+                pairs.updateAndGet(v -> v + (element - 1) / 2);
             }
         });
 
         return pairs.get();
+
+        // More optimized version
+        Map<Integer, Integer> map = new Hashtable<>();
+        for (int i : ar) {
+            if (map.containsKey(i)) {
+                Integer value = map.get(i);
+                value += 1;
+                map.put(i, value);
+            } else {
+                map.put(i, 1);
+            }
+        }
+        return map.values().stream().map(element ->
+                element % 2 == 0 ? element / 2 : (element - 1) / 2
+        ).reduce(0, Integer::sum);
     }
 
     private static final Scanner scanner = new Scanner(System.in);
